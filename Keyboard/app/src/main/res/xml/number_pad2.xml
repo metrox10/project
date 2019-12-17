@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="33%p"
+    android:horizontalGap="5dp"
+    android:verticalGap="5dp"
+    android:keyHeight="60dp">
+
+
+
+    <Row>
+        <Key android:codes="74" android:keyLabel="NFC_STAT" android:keyEdgeFlags="left"/>
+        <Key android:codes="65" android:keyLabel="NFC"/>
+        <Key android:codes="71" android:keyLabel="BT"/>
+        <Key android:codes="66" android:keyLabel="WIFI" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-5"
+            android:keyLabel="DELETE"
+            android:keyWidth="33%p"
+            android:keyEdgeFlags="left"
+            android:isRepeatable="true"/>
+        <Key android:codes="69"
+            android:keyWidth="33%p"
+            android:keyLabel="WSTECZ"/>
+        <Key android:codes="10"
+            android:keyLabel="ENTER"
+            android:keyWidth="33%p"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+</Keyboard>
